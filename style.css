@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.block {
+  /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    height: 50vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0
+}
+
+.header {
+  background-color: #000;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-containers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+}
+
+.menu-nav {
+  display: flex;
+  padding-left: 0;
+}
+
+.menu-nav li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-nav-wrapper {
+  display: none;
+}
+
+.top-wrapper-block {
+  background: #212E32;
+  color: #fff;
+  z-index: 0;
+  background-image: url(../images/LEXUS_LS_back.png);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.ls-img {
+  width: 100%;
+  height: 70%;
+  padding-top: 20%;
+}
+
+.content1-wrapper-block {
+  background-color: #000;
+  z-index: 100;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 8%;
+}
+
+.content1-title {
+  font-size: 2em;
+  font-family: serif;
+  margin: 0;
+  padding: 4% 0;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+}
+
+.service {
+  width: 30%;
+  height: auto;
+}
+
+.service-img {
+  width: 100%;
+  height: auto;
+}
+
+.service-title {
+  font-family: serif;
+  letter-spacing: 1px;
+}
+
+.text-service {
+  padding: 0 4%;
+}
+
+.content2-wrapper-block {
+  background: #000;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  padding-bottom: 6%;
+  height: auto;
+}
+
+.content2-title {
+  font-size: 2em;
+  font-family: serif;
+  margin-top: 0;
+}
+
+.gallerys {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
+}
+
+.gallery {
+  width: 32%;
+  height: auto;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 90%;
+}
+
+.more-gallery-btn {
+  background-color: red;
+  padding: 10px 25px;
+  display: inline;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #3f434a;
+  position: relative;
+  height: auto;
+  padding-bottom: 6%;
+  z-index: 5;
+}
+
+.footer-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.footer-menu-nav li {
+  list-style:none;
+  padding: 10px;
+}
