@@ -5,6 +5,12 @@ $(function() {
 });
 
 $(function() {
+  $('.wheel-nav').click(function() {
+    $('.wheel-field').slideToggle();
+  });
+});
+
+$(function() {
   $(window).scroll(function(){
     var y = $(this).scrollTop();
     $('#ls-bg').css('background-position', '0 ' + parseInt( -y / 5 ) + 'px');
