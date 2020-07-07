@@ -23,6 +23,33 @@
     background-color: #000;
   }
 
+  .fa-angle-down {
+    float: right;
+  }
+
+  .wheel-field {
+    display: none;
+  }
+
+  .wheels {
+    display: flex;
+    background-color: #000;
+  }
+
+  .wheel {
+    width: 20%;
+    height: auto;
+  }
+
+  .wheel-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-wheel {
+    font-size: 0.8em;
+  }
+
   .content1-title {
     font-size: 1em;
     letter-spacing: 1px;
