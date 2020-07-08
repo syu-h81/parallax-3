@@ -14,7 +14,7 @@ $(function() {
   $(window).scroll(function(){
     var y = $(this).scrollTop();
     $('#ls-bg').css('background-position', '0 ' + parseInt( -y / 4 ) + 'px');
-    $('#ls').css('background-position', '0 ' + parseInt( -y / 8 ) + '%');
+    $('#ls').css('background-position', '0 ' + parseInt( -y / 2 ) + '%');
     //$('#bg2-ls-img').css('background-position', '0 ' + parseInt( -y / 3 ) + 'px');
     //$('#safety-bg').css('background-position', '0 ' + parseInt( -y / 7 ) + 'px');
     //$('#bg02').css('background-position', '0 ' + parseInt( -y / 50 ) + 'px');
@@ -22,9 +22,22 @@ $(function() {
   });
 });
 
+$(function(){
+  $(window).scroll(function (){
+    $('.effect-fade').each(function(){
+      var elemPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > elemPos - windowHeight){
+        $(this).addClass('effect-scroll');
+      }
+    });
+  });
+});
+
 window.addEventListener('scroll',function(){
   header_scroll();
-  parallax('top-wrapper-block',5,0);
+  parallax('top-wrapper-block',3,0);
 });
 
 function header_scroll(){
