@@ -94,7 +94,7 @@ a {
   background: #212E32;
   color: #fff;
   z-index: 0;
-  background-image: url(https://syu-h81.github.io/parallax-3/LEXUS_LS_back.png);
+  background-image: url(../images/LEXUS_LS_back.png);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -127,6 +127,17 @@ a {
   position: relative;
   padding-bottom: 8%;
   transition: all 0.1s ease 0s;
+}
+
+.effect-fade {
+  opacity : 0;
+  transform : translate(0, 45px);
+  transition : all 300ms;
+}
+
+.effect-fade.effect-scroll {
+  opacity : 1;
+  transform : translate(0, 0);
 }
 
 .content1-title {
