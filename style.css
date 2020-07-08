@@ -84,7 +84,7 @@ a {
   background-size: cover;
   background-position: center;
   height: auto;
-  transition: all 0s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .ls-img {
