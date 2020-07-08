@@ -95,5 +95,9 @@
   .window-copyright {
     display: none;
   }
+  
+  .mobile-effect-fade {
+    opacity: 1;
+  }
 
 }
